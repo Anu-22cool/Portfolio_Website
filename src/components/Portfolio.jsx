@@ -40,31 +40,31 @@ function Portfolio()
         {
             id: 2,
             logo: ir,
-            name: "CONTENT_AWARE_IMAGE_RESIZER",
+            name: "CONTENT AWARE IMAGE RESIZER",
             link: "https://github.com/Anu-22cool/Image_Resizer"
         },
         {
             id: 3,
             logo: othello,
-            name: "OTHELLO_GAME_PLAYING_BOT",
+            name: "OTHELLO GAME PLAYING BOT",
             link: "https://github.com/Anu-22cool/Othello-Game-Playing-Bot"
         },
         {
             id: 4,
             logo: cs,
-            name: "LIVE_CRICKET_SCORE",
+            name: "LIVE CRICKET SCORE",
             link: "https://github.com/Anu-22cool/Live_CricketScore"
         },
         {
             id: 5,
             logo: cfc,
-            name: "COMPUTER_CENTRE_FACILITY_BOOKING",
+            name: "COMPUTER CENTRE_FACILITY BOOKING",
             link: "https://github.com/Anu-22cool/Parallelized_Computer_Centre_Facility_Booking_Application"
         },
         {
             id: 6,
             logo: graph,
-            name: "Graph_Activation_Game",
+            name: "Graph Activation Game",
             link: "https://github.com/Anu-22cool/Graph_Activation_Game"
         }
     ];
