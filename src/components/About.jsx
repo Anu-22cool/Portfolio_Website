@@ -15,23 +15,23 @@ import Accordion from 'react-bootstrap/Accordion';
           
           </Accordion.Header>
           <Accordion.Body style={{ backgroundColor: '#1a1a1a', color: '#f1f1f1' }}>
-          <ul>
-             <li>
-               Completed M.Tech in Computer Science from IIT Madras (July 2024)
-               <ul>
-                   <li>Final year project under Prof. Rupesh Nasre on StarPlat, a domain-specific parallel programming language tailored for solving complex graph problems 
-                       across different architectures.
-                   </li>
-                
-              </ul>
-             </li>
-             <li>
-              B.Tech in Computer Science from BIT Durg(April 2022)
-            </li>
-            <li>
-              Academic achievement: Secured 386th rank in GATE 2022 exam (Computer Science)
-            </li>
+          <ul className="list-disc pl-8 text-lg font-sans leading-relaxed ">
+              <li className="mb-4">
+                <span className="font-semibold">Completed M.Tech in Computer Science from IIT Madras (July 2024)</span>
+                <ul className="list-disc pl-7 mt-2">
+                    <li className="mt-2">
+                          Final year project under Prof. Rupesh Nasre on StarPlat, a domain-specific parallel programming language tailored for solving complex graph problems across different architectures.
+                    </li>
+                </ul>
+              </li>
+              <li className="mb-4">
+                <span className="font-semibold">B.Tech in Computer Science from BIT Durg (April 2022)</span>
+              </li>
+              <li className="mb-4">
+                <span className="font-semibold">Academic achievement: Secured 386th rank in GATE 2022 exam (Computer Science)</span>
+              </li>
           </ul>
+
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
@@ -43,17 +43,18 @@ import Accordion from 'react-bootstrap/Accordion';
             </Accordion.Header>
           <Accordion.Body style={{ backgroundColor: '#1a1a1a', color: '#f1f1f1' }}>
          
-            <ul>
-              <li>
-                Solid understanding in essential theoretical subjects such as Advanced Data Structures and Algorithms, and Operating Systems.
+            <ul className="list-disc pl-8 text-lg font-sans leading-relaxed font-semibold ">
+              <li className="mb-4">
+                  Solid understanding in essential theoretical subjects such as Advanced Data Structures and Algorithms, and Operating Systems.
               </li>
-              <li>
-                Expertise in programming languages acquired through courses like Advanced Programming Laboratory, Object Oriented Programming, and GPU Programming using CUDA and SYCL.
+              <li className="mb-4">
+                  Expertise in programming languages acquired through courses like Advanced Programming Laboratory, Object Oriented Programming, and GPU Programming using CUDA and SYCL.
               </li>
-              <li>
-                Completed coursework covering Computer Networks, Relational Database Management Systems, Computer Architecture, and Artificial Intelligence.
-             </li>
+              <li className="mb-4">
+                  Completed coursework covering Computer Networks, Relational Database Management Systems, Computer Architecture, and Artificial Intelligence.
+              </li>
             </ul>
+
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="2">
@@ -62,34 +63,37 @@ import Accordion from 'react-bootstrap/Accordion';
             Position of Responsibility #3
             </span></Accordion.Header>
           <Accordion.Body style={{ backgroundColor: '#1a1a1a', color: '#f1f1f1' }}>
-          <h5>National Supercomputing Mission</h5>
-      <ul>
-        <li>
-          Collaborated with the National Supercomputing Mission to spearhead and facilitate a training program focused on SYCL.
-        </li>
-        <li>
-          Designed and delivered comprehensive training sessions covering:
-          <ul>
-            <li>GPU fundamentals and architecture</li>
-            <li>Installation procedures</li>
-            <li>Intriguing program implementations</li>
-            <li>Optimization techniques</li>
-          </ul>
-        </li>
-      </ul>
+          <div >
+            <h5 className="text-xl font-semibold mb-4">National Supercomputing Mission</h5>
+              <ul className="list-disc pl-8 text-lg font-sans leading-relaxed font-semibold ">
+                  <li className="mb-4">
+                    Collaborated with the National Supercomputing Mission to spearhead and facilitate a training program focused on SYCL.
+                  </li>
+                  <li className="mb-4">
+                    Designed and delivered comprehensive training sessions covering:
+                    <ul className="list-disc pl-8 mt-2">
+                      <li className="mb-2">GPU fundamentals and architecture</li>
+                      <li className="mb-2">Installation procedures</li>
+                      <li className="mb-2">Intriguing program implementations</li>
+                      <li className="mb-2">Optimization techniques</li>
+                    </ul>
+                  </li>
+              </ul>
 
-      <h5>Teaching Assistantship at IIT Madras</h5>
-      <ul>
-        <li>
-          Course: CS2810 Object Oriented Algorithms Implementation and Analysis Lab
-        </li>
-        <li>
-          Supervisor: Professor Kartik Nagar
-        </li>
-        <li>
-          Provided invaluable support to students in understanding and implementing sophisticated object-oriented algorithms and concepts.
-        </li>
-      </ul>
+            <h5 className="text-xl font-semibold mb-4">Teaching Assistantship at IIT Madras</h5>
+              <ul className="list-disc pl-8 text-lg font-sans leading-relaxed font-semibold ">
+                <li className="mb-4">
+                  Course: CS2810 Object Oriented Algorithms Implementation and Analysis Lab
+                </li>
+                <li className="mb-4">
+                  Supervisor: Professor Kartik Nagar
+                </li>
+                   <li className="mb-4">
+                  Provided invaluable support to students in understanding and implementing sophisticated object-oriented algorithms and concepts.
+                </li>
+              </ul>
+         </div>
+
        </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="3">
@@ -100,26 +104,29 @@ import Accordion from 'react-bootstrap/Accordion';
           </span>
           </Accordion.Header>
           <Accordion.Body style={{ backgroundColor: '#1a1a1a', color: '#f1f1f1' }}>
-          <ul>
-        <li>
-          Music:
-          <ul>
-          <li>Playing guitar and singing are essential ways for me to unwind and cultivate creative inspiration.</li>
-          </ul>
-        </li>
-        <li>
-          Cricket:
-          <ul>
-            <li>Passionate about cricket, with a significant involvement that led to winning an inter-school tournament during school years.</li>
-          </ul>
-        </li>
-        <li>
-          Chess:
-          <ul>
-            <li>Consider myself a decent player; enjoy the intellectual challenge and find it refreshing from technical endeavors.</li>
-          </ul>
-        </li>
-      </ul> </Accordion.Body>
+          <div className="prose max-w-none">
+            <ul className="list-disc pl-8 text-lg leading-relaxed ">
+              <li className="mb-4">
+                <span className="font-semibold">Music:</span>
+                <ul className="list-disc pl-8 text-lg font-sans leading-relaxed font-semibold">
+                  <li>Playing guitar and singing are essential ways for me to unwind and cultivate creative inspiration.</li>
+                </ul>
+              </li>
+              <li className="mb-4">
+                <span className="font-semibold">Cricket:</span>
+                <ul className="list-disc pl-8 text-lg font-sans leading-relaxed font-semibold">
+                  <li>Passionate about cricket, with a significant involvement that led to winning an inter-school tournament during school years.</li>
+                </ul>
+              </li>
+              <li className="mb-4">
+                <span className="font-semibold">Chess:</span>
+                <ul className="list-disc pl-8 text-lg font-sans leading-relaxed font-semibold">
+                  <li>Consider myself a decent player, enjoy the intellectual challenge and find it refreshing from technical endeavors.</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          </Accordion.Body>
         </Accordion.Item>
       </Accordion>
     </div>
