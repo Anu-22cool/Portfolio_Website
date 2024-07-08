@@ -20,7 +20,7 @@ function Navbar() {
         <div className="text-white mx-auto px-4 h-24 md:px-20 h-20 shadow-md fixed top-0 right-0 left-0 bottom-0 z-50 bg-black">
             <div className="flex justify-between items-center h-16 mt-2">
                 <div className="flex space-x-2">
-                <img src={pic} className="h-12 w-12 rounded-full mt-2 " alt="" />
+                <img src={pic} className="h-12 w-12 rounded-full mt-3 " alt="" />
                     <div>
                         <h1 className="mt-2 font-semibold text-xl cursor-pointer text-xl">
                             Anukul<span className="text-green-500 text-2xl">l</span>
