@@ -83,18 +83,14 @@ function Portfolio()
                             <div className="md:w-[600px] md:h-[300px] border-[4px] border-white dark:border-cyan rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300" key={id}>
                                   
                                   <div className="flex items-center">
-                                        <img src={logo} className="w-[150px] h-[150px] p-1 rounded-full border-[2px]" alt="" />
+                                        <img src={logo} className="w-[160px] h-[160px] p-1 rounded-full border-[2px] md:mt-6" alt=""  />
                                         <div className="px-2 font-bold text-xl mb-2">{name}</div>
                                  </div>
-                                  <div>
-                                
-                                    <p className="px-2  ">Files in the public directory are served at the root path.</p> 
-                                    
-                                  </div> 
+                                 
                                   <div className="justify-around px-6 py-4 space-x-3">
                                         {/* <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded">Video</button> */}
                                                         <a href={link} target="_blank" rel="noopener noreferrer">
-                                                            <button className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded">Source Code</button>
+                                                            <button className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded text-xl">Source Code</button>
                                                         </a>
                                   </div>
                                   <br></br>         
